@@ -1,0 +1,2 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+6e57984e-bfd7-4628-8b94-41d2c0e844d4	\N	aliquot	8bc7137e-ce66-4812-a14d-cb51ac064a83	General	Notification	2022-05-04T07:21:12.092060-05:00	Approved	Duplicate item: PDA BioTEXT RNA

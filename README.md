@@ -1,7 +1,10 @@
-# PMA 데이터 파이프라인 실행 순서
+# PMA 데이터 파이프라인
 
-`.보고용/` 안의 전처리 스크립트를 raw 데이터부터 학습 입력까지 만드는 순서대로 정리한 문서.
+전처리 스크립트를 raw 데이터부터 학습 입력까지 만드는 순서대로 정리한 문서.
 모든 명령은 프로젝트 루트(`config.py`가 있는 위치)에서 실행한다.
+
+## 실행 방법
+`preprocess_pipeline.ipynb`를 순차적으로 실행한다.
 
 ## 전체 구조
 
@@ -12,7 +15,7 @@ raw WSI(.svs)              raw clinical.tsv           raw RNA tsv
 [A] wsi_preprocess.py      [B] extract_os_labels.py         │
      │                           │                          │
      │                           ▼                          │
-     │                     os_labels_{tcga,cptac}.csv        │
+     │                     os_labels_{tcga,cptac}.csv       │
      │                           │                          │
      │                           └──────────┬───────────────┘
      │                                      ▼
